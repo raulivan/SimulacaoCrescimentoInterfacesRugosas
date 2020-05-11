@@ -15,6 +15,10 @@ public class Run {
 			
 			DeposicaoAleatoria.iniciarSimulacao();
 			
+			DeposicaoAleatoriaRelaxacaoSuperficial.iniciarSimulacao();
+			
+			DeposicaoBalistica.iniciarSimulacao();
+			
 			System.out.println("FINALIZOU...");
 			
 		}catch (Exception ex) {
